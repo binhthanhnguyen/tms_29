@@ -31,5 +31,15 @@ en:
   titles:
     base_title: "Framgia Training System"
     home: "Home"
+    log_in: "Log in"
   footer:
     home: "Home"
+
+  buttons:
+    log_in: "Log in"
+  messages:
+    log_in:
+      danger: "Invalid email/password combination."
+  links:
+    logo: "Framgia Training System"
+
