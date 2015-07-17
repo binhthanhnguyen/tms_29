@@ -11,6 +11,8 @@ en:
     base_title: "Framgia Training System"
     home: "Home"
     log_in: "Log in"
+    course:
+      new: "New Course"
   footer:
     home: "Home"
   layouts:
@@ -21,13 +23,13 @@ en:
   messages:
     admin:
       update:
-        success: "Update successfully"
+        success: "Updated successfully"
         fail: "Update fail"
       create:
-        success: "Create successfully"
+        success: "Created successfully"
         fail: "Can't create"
       destroy:
-        success: "Delele  successfully"
+        success: "Deleted  successfully"
         fail: "Can't delete"
   buttons:
     admin:
@@ -35,12 +37,15 @@ en:
         create: "Create new subject"
     delete_confirm: "Are you sure?"
     delete: "Delete"
-    edit: "Edit"      
+    edit: "Edit"
+    user:
+      edit: "Edit Profile"
+    course:
+      new: "Create Course"
+      update: "Save changes"
   dynamic_form:
     add: "Add task"
     remove: "Remove"
-  button:
-    edit_profile: "Edit Profile"
   links:
     logo: "Framgia Training System"
-
+  form_error: "The form contains"
