@@ -95,6 +95,9 @@ GEM
       activemodel (>= 3.0)
       activesupport (>= 3.0)
       request_store (~> 1.0)
+    email_spec (1.6.0)
+      launchy (~> 2.1)
+      mail (~> 2.2)
     erubis (2.7.0)
     excon (0.45.4)
     execjs (2.5.2)
@@ -366,6 +369,7 @@ DEPENDENCIES
   delayed_job_active_record
   devise
   draper
+  email_spec
   factory_girl_rails (~> 4.0)
   faker (= 1.4.2)
   fog (= 1.32.0)
