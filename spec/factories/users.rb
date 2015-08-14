@@ -9,4 +9,12 @@ FactoryGirl.define do
       admin true
     end
   end
+
+  factory :invalid_email_user, parent: :user do |f|
+    f.email nil
+  end
+
+  factory :invalid_password_user, parent: :user do |f|
+    f.password nil
+  end
 end
